@@ -17,6 +17,7 @@ namespace IISTools
         {
             try
             {
+                Console.WriteLine("开始执行IISTools工具");
                 int iisVersion = IISBaseConfig.GetIISVersion();
 
                 ConfigArgs argsObj = new ConfigArgs(args);
