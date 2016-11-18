@@ -53,7 +53,6 @@ namespace OneV.IISTools
         {
             ConfigArgsModel model = new ConfigArgsModel();
             Type t = model.GetType();
-            List<ArgsItems> sysItems = new List<ArgsItems>();
             foreach (PropertyInfo proptyinfo in t.GetProperties())
             {
                 Type propertyType = proptyinfo.PropertyType;
